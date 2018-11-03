@@ -1,4 +1,4 @@
-ds1a <- data.table::fread("C:/../../Reviews.csv")
+ds1a <- read.csv('C:/.../Reviews.csv',header=T,na.strings=c(""))
 
 #str function used to look at the object to find out what's the Structure in this object. object is in ds1a
 #output -- ProductId, UserId, ProfileName, Summary and Text are factors. Rest are int  
